@@ -7,8 +7,9 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
+      className="h-screen bg-red-400 flex justify-center items-center"
     >
-      Contact
+      <h1 className="text-3xl">Contact</h1>
     </m.div>
   );
 };
